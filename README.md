@@ -16,6 +16,20 @@ folder_path = "/var/www/aplikasiku/resources/views/admin/transfers"
 os.makedirs(folder_path, exist_ok=True)
 ```
 
+## Result
+```
+aplikasiku
+│  
+└───resources
+│   │
+│   └───views
+│   │   │
+│   │   └───admin
+│   │   │   │
+│   │       └───transfer
+│ 
+```
+
 # Running
 ```
 python app.py
